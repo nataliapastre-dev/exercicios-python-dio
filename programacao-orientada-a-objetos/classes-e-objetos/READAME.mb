@@ -1,0 +1,127 @@
+# 🚀 Programação Orientada a Objetos (POO) em Python
+
+Repositório com exercícios práticos de **Programação Orientada a Objetos (POO)** utilizando Python, abordando conceitos fundamentais como classes, herança e reutilização de código.
+
+---
+
+## 📌 Exercício 1 - Classe Bicicleta
+
+### 📂 Arquivo
+
+`programacao-orientada-a-objetos/classes-e-objetos/01_desafio_bicicletaria.py`
+
+### 🧠 Descrição
+
+Criação de uma classe com atributos e métodos, incluindo sobrescrita do método `__str__`.
+
+### 💻 Exemplo de execução
+
+```
+Plim plim...
+Vrummmmm...
+Parando bicicleta...
+Bicicleta parada!
+vermelha caloi 2022 600
+Bicicleta: cor=verde, modelo=monark, ano=2000, valor=189
+Vrummmmm...
+```
+
+---
+
+## 📌 Exercício 2 - Construtores e Destruidores
+
+### 📂 Arquivo
+
+`programacao-orientada-a-objetos/classes-e-objetos/02_construtores_destruidores.py`
+
+### 🧠 Descrição
+
+Demonstra o ciclo de vida de um objeto utilizando os métodos `__init__` e `__del__`.
+
+### 💻 Exemplo de execução
+
+```
+Inicializando a classe...
+auau
+Ola mundo
+Removendo a instância da classe.
+Ola mundo
+Ola mundo
+Ola mundo
+```
+
+### ⚠️ Observação
+
+O método `__del__` depende do gerenciamento de memória do Python e pode não ser executado imediatamente.
+
+---
+
+## 📌 Exercício 3 - Herança Simples
+
+### 📂 Arquivo
+
+`programacao-orientada-a-objetos/classes-e-objetos/03_heranca_simples.py`
+
+### 🧠 Descrição
+
+Demonstra herança entre classes, reutilização de código e uso de `super()`.
+
+### 💻 Exemplo de execução
+
+```
+Motocicleta: cor=preta, placa=abc-1234, numero_rodas=2
+Carro: cor=branco, placa=xde-0098, numero_rodas=4
+Caminhao: cor=roxo, placa=gfd-8712, numero_rodas=8, carregado=True
+```
+
+---
+
+## 📌 Exercício 4 - Herança Múltipla
+
+### 📂 Arquivo
+
+`programacao-orientada-a-objetos/classes-e-objetos/04_heranca_multipla.py`
+
+### 🧠 Descrição
+
+Exemplo de herança múltipla com uso de `super()` e compartilhamento de argumentos com `**kw`.
+
+### 💻 Exemplo de execução
+
+```
+Gato: cor_pelo=Preto, nro_patas=4
+Ornitorrinco: cor_pelo=vermelho, cor_bico=laranja, nro_patas=2
+```
+
+### ⚠️ Observação
+
+Python utiliza a ordem de resolução de métodos (MRO) para definir qual método será executado.
+
+---
+
+## 🧠 Conceitos abordados
+
+* ✔ Classes e objetos
+* ✔ Métodos e atributos
+* ✔ Construtor e destrutor
+* ✔ Herança simples
+* ✔ Herança múltipla
+* ✔ Reutilização de código
+* ✔ Método `super()`
+
+---
+
+## 🎯 Objetivo
+
+Consolidar os fundamentos de Programação Orientada a Objetos em Python, desenvolvendo código mais organizado, reutilizável e próximo de aplicações reais.
+
+---
+
+## 👩‍💻 Autora
+
+Natália Baptista Pastre
+🔗 https://github.com/natipastre
+
+---
+
+✨ Em evolução constante na área de tecnologia.
