@@ -1,3 +1,26 @@
+# 🐍 Exercícios de Python - DIO + Accenture
+
+Repositório com exercícios desenvolvidos durante o curso **Python para Análise e Automação de Dados**, realizado na plataforma **DIO (Digital Innovation One)** em parceria com a **Accenture**.
+
+---
+
+## 🎯 Objetivo
+
+Praticar lógica de programação, estruturas de controle e fundamentos da linguagem Python, construindo uma base sólida para projetos futuros em análise de dados e automação.
+
+---
+
+## 📁 Estrutura do Repositório
+fundamento/
+├── convertendo_tipos.py
+├── sistema_bancario.py
+├── manter_tele_aninhada.py
+├── estrutura_repeticao_break.py
+├── estrutura_repeticao_for.py
+├── estrutura_repeticao_while.py
+├── identacao_blocos.py
+├── desafio_repeticoes.py
+
 
 ---
 
@@ -73,9 +96,5 @@ Sistema que analisa o valor total da compra e aplica regras de negócio automati
 💻 GitHub: https://github.com/natipastre  
 
 ---
-
-✨ Em constante evolução na área de tecnologia.
-
-💻 GitHub
 
 ✨ Em constante evolução na área de tecnologia.
