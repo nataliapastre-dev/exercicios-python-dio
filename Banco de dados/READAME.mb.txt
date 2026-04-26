@@ -1,0 +1,104 @@
+# 📊 Projeto SQLite com Python (DB-API)
+
+Projeto prático para estudo de banco de dados com Python e SQLite, com foco em CRUD, organização em camadas, transações e boas práticas de segurança.
+
+---
+
+## 🚀 Objetivos
+
+- Praticar operações com banco de dados (CRUD)
+- Entender transações no SQLite
+- Identificar riscos de SQL Injection
+- Aplicar organização em camadas (domínio, serviço e banco)
+- Desenvolver lógica com desafios práticos
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+- Python 3
+- SQLite3 (biblioteca nativa)
+- Dataclasses
+
+---
+
+## 📁 Estrutura do projeto
+├── exercicio_dbapi.py # CRUD básico com SQLite
+├── injecao_sql.py # Exemplo de SQL Injection (inseguro)
+├── transacao.py # Controle de transações
+
+├── 01_desafio/
+│ ├── bd.py # Conexão e criação do banco
+│ └── dominio.py # Modelos (Cliente, PF, PJ)
+
+├── 02_desafio/
+│ ├── bd.py # Banco de dados
+│ ├── servico.py # Regras de negócio
+│ └── main.py # Interface via terminal
+
+└── meu_banco.sqlite # Banco de dados gerado
+
+
+---
+
+## 🧠 Conceitos aplicados
+
+### 🗄️ CRUD com SQLite
+- Criar tabelas  
+- Inserir registros  
+- Atualizar dados  
+- Excluir registros  
+- Consultar dados  
+
+---
+
+### 🔐 SQL Injection (exemplo inseguro)
+
+Arquivo: `injecao_sql.py`
+
+```python
+cursor.execute(f"SELECT * FROM clientes WHERE id={id_cliente}")
+
+🧩 Desafios
+Desafio 01
+
+Implementar:
+
+criar_conexao()
+criar_bd()
+
+Objetivo:
+
+Criar banco SQLite
+Criar tabela de clientes
+Desafio 02
+
+Sistema completo via terminal.
+
+Funcionalidades:
+
+Criar cliente
+Listar clientes
+
+Arquitetura:
+
+dominio.py → modelos (Cliente, PF, PJ)
+bd.py → banco de dados
+servico.py → regras de negócio
+main.py → interface via terminal
+
+💡 Melhorias futuras
+Validação de dados de entrada
+Interface gráfica (Tkinter ou Web com Django)
+Autenticação de usuários
+Integração com APIs
+Testes automatizados
+👩‍💻 Autora
+
+Natália Baptista Pastre
+📌 Em transição para área de Tecnologia
+💻 Foco em Front-end e Análise de Dados
+
+⭐ Objetivo do projeto
+
+Projeto desenvolvido para prática de banco de dados com Python, com foco em organização, boas práticas e segurança no código.
