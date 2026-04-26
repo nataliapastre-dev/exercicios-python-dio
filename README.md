@@ -55,3 +55,38 @@ programacao-orientada-a-objetos/
 ---
 
 ✨ Em constante evolução na área de tecnologia.
+## 🧠 Conteúdos abordados
+
+- ✔ Tipos de dados (`int`, `float`, `str`)
+- ✔ Estruturas condicionais (`if`, `elif`, `else`)
+- ✔ Estruturas de repetição (`for`, `while`)
+- ✔ Listas e manipulação de dados
+- ✔ Métodos de listas
+- ✔ Programação Orientada a Objetos (POO)
+- ✔ Classes, objetos e herança
+- ✔ Reutilização de código
+
+---
+
+## 🎯 Objetivo
+
+Construir uma base sólida em Python, aplicando conceitos fundamentais que serão utilizados em:
+
+- 📊 Análise de dados  
+- ⚙️ Automação de processos  
+- 💻 Desenvolvimento de aplicações  
+
+---
+
+## 📈 Evolução do aprendizado
+
+Este repositório será constantemente atualizado com novos exercícios e projetos conforme avanço nos estudos e desafios da formação.
+
+---
+
+## 👩‍💻 Autora
+
+**Natália Baptista Pastre**
+
+🔗 [LinkedIn](https://www.linkedin.com/in/nataliapastre-dev/)  
+🔗 [GitHub](https://github.com/natipastre)
