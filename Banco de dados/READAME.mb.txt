@@ -1,16 +1,16 @@
 # 📊 Projeto SQLite com Python (DB-API)
 
-Projeto prático para estudo de banco de dados com Python e SQLite, com foco em CRUD, organização em camadas, transações e boas práticas de segurança.
+Projeto prático para estudo de banco de dados utilizando **Python + SQLite**, com foco em operações CRUD, organização em camadas, transações e boas práticas de segurança.
 
 ---
 
-## 🚀 Objetivos
+## 🚀 Objetivos do projeto
 
-- Praticar operações com banco de dados (CRUD)
-- Entender transações no SQLite
-- Identificar riscos de SQL Injection
-- Aplicar organização em camadas (domínio, serviço e banco)
-- Desenvolver lógica com desafios práticos
+- Praticar operações de banco de dados (CRUD)
+- Entender o funcionamento de transações no SQLite
+- Identificar e evitar riscos de SQL Injection
+- Aplicar arquitetura em camadas (domínio, serviço e banco de dados)
+- Desenvolver lógica de programação com desafios práticos
 
 ---
 
@@ -23,82 +23,72 @@ Projeto prático para estudo de banco de dados com Python e SQLite, com foco em 
 ---
 
 ## 📁 Estrutura do projeto
-├── exercicio_dbapi.py # CRUD básico com SQLite
-├── injecao_sql.py # Exemplo de SQL Injection (inseguro)
-├── transacao.py # Controle de transações
+
+```bash
+├── exercicio_dbapi.py      # CRUD básico com SQLite
+├── injecao_sql.py          # Exemplo de SQL Injection (inseguro)
+├── transacao.py            # Controle de transações
 
 ├── 01_desafio/
-│ ├── bd.py # Conexão e criação do banco
-│ └── dominio.py # Modelos (Cliente, PF, PJ)
+│   ├── bd.py              # Conexão e criação do banco
+│   └── dominio.py         # Modelos (Cliente, PF, PJ)
 
 ├── 02_desafio/
-│ ├── bd.py # Banco de dados
-│ ├── servico.py # Regras de negócio
-│ └── main.py # Interface via terminal
+│   ├── bd.py              # Banco de dados
+│   ├── servico.py         # Regras de negócio
+│   └── main.py            # Interface via terminal
 
-└── meu_banco.sqlite # Banco de dados gerado
+└── meu_banco.sqlite        # Banco de dados gerado
 
+## 🧩 Desafios
 
----
-
-## 🧠 Conceitos aplicados
-
-### 🗄️ CRUD com SQLite
-- Criar tabelas  
-- Inserir registros  
-- Atualizar dados  
-- Excluir registros  
-- Consultar dados  
-
----
-
-### 🔐 SQL Injection (exemplo inseguro)
-
-Arquivo: `injecao_sql.py`
-
-```python
-cursor.execute(f"SELECT * FROM clientes WHERE id={id_cliente}")
-
-🧩 Desafios
-Desafio 01
+### 🟢 Desafio 01
 
 Implementar:
 
-criar_conexao()
-criar_bd()
+- `criar_conexao()`
+- `criar_bd()`
 
-Objetivo:
+**Objetivo:**
+- Criar banco SQLite
+- Criar tabela de clientes
 
-Criar banco SQLite
-Criar tabela de clientes
-Desafio 02
+---
+
+### 🔵 Desafio 02
 
 Sistema completo via terminal.
 
-Funcionalidades:
+**Funcionalidades:**
+- Criar cliente
+- Listar clientes
 
-Criar cliente
-Listar clientes
+**Arquitetura do sistema:**
+- `dominio.py` → modelos (Cliente, PF, PJ)
+- `bd.py` → banco de dados
+- `servico.py` → regras de negócio
+- `main.py` → interface via terminal
 
-Arquitetura:
+---
 
-dominio.py → modelos (Cliente, PF, PJ)
-bd.py → banco de dados
-servico.py → regras de negócio
-main.py → interface via terminal
+## 💡 Melhorias futuras
 
-💡 Melhorias futuras
-Validação de dados de entrada
-Interface gráfica (Tkinter ou Web com Django)
-Autenticação de usuários
-Integração com APIs
-Testes automatizados
-👩‍💻 Autora
+- Validação de dados de entrada
+- Interface gráfica (Tkinter ou aplicação Web com Django)
+- Autenticação de usuários
+- Integração com APIs externas
+- Testes automatizados
 
-Natália Baptista Pastre
-📌 Em transição para área de Tecnologia
-💻 Foco em Front-end e Análise de Dados
+---
 
-⭐ Objetivo do projeto
+## 👩‍💻 Autora
 
-Projeto desenvolvido para prática de banco de dados com Python, com foco em organização, boas práticas e segurança no código.
+**Natália Baptista Pastre**  
+📌 Em transição para a área de Tecnologia  
+💻 Foco em Front-end e Análise de Dados  
+
+---
+
+## ⭐ Objetivo final
+
+Projeto desenvolvido para prática de banco de dados com Python, com foco em organização de código, boas práticas de desenvolvimento e segurança.
