@@ -25,36 +25,6 @@ Os conteúdos estão organizados por módulos, acompanhando a evolução do apre
 - GitHub
 
 ---
-
-## 📂 Estrutura do repositório
-
-```bash
-fundamento/
-├── convertendo_tipos.py
-├── sistema_bancario.py
-├── estruturas_condicionais.py
-├── estruturas_repeticao.py
-└── README.md
-
-estrutura-dados/
-├── 00_listas_declaracao.py
-├── 01_acessando_listas.py
-├── 03_matriz.py
-├── 04_count.py
-└── README.md
-
-programacao-orientada-a-objetos/
-└── classes-e-objetos/
-    ├── 01_desafio_bicicletaria.py
-    ├── 02_construtores_destruidores.py
-    ├── 03_heranca_simples.py
-    ├── 04_heranca_multipla.py
-    └── README.md
-🔗 [GitHub](https://github.com/natipastre)
-
----
-
-✨ Em constante evolução na área de tecnologia.
 ## 🧠 Conteúdos abordados
 
 - ✔ Tipos de dados (`int`, `float`, `str`)
@@ -88,5 +58,31 @@ Este repositório será constantemente atualizado com novos exercícios e projet
 
 **Natália Baptista Pastre**
 
-🔗 [LinkedIn](https://www.linkedin.com/in/nataliapastre-dev/)  
-🔗 [GitHub](https://github.com/natipastre)
+🔗 LinkedIn: https://www.linkedin.com/in/nataliapastre-dev/  
+🔗 GitHub: https://github.com/natipastre
+
+## 📂 Estrutura do repositório
+
+```bash
+fundamento/
+├── convertendo_tipos.py
+├── sistema_bancario.py
+├── estruturas_condicionais.py
+├── estruturas_repeticao.py
+└── README.md
+
+estrutura-dados/
+├── 00_listas_declaracao.py
+├── 01_acessando_listas.py
+├── 03_matriz.py
+├── 04_count.py
+└── README.md
+
+programacao-orientada-a-objetos/
+└── classes-e-objetos/
+    ├── 01_desafio_bicicletaria.py
+    ├── 02_construtores_destruidores.py
+    ├── 03_heranca_simples.py
+    ├── 04_heranca_multipla.py
+    └── README.md
+
