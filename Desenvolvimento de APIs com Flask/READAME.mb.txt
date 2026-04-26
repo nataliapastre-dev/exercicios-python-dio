@@ -1,0 +1,98 @@
+# 🚀 API com Flask - Sistema de Usuários e Contas
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Flask](https://img.shields.io/badge/Flask-Framework-black)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+Projeto de API REST desenvolvido com Flask, aplicando boas práticas de arquitetura, organização de código e integração com banco de dados.
+
+---
+
+## 📌 Objetivo
+
+Desenvolver uma API estruturada para:
+
+- Gerenciar usuários e contas
+- Aplicar arquitetura modular (controllers, models, config)
+- Utilizar ORM com SQLAlchemy
+- Trabalhar com migrações de banco de dados
+- Implementar tratamento centralizado de erros
+- Gerar documentação automática da API
+
+---
+
+## 🛠 Tecnologias
+
+- Python
+- Flask
+- Flask-SQLAlchemy
+- Flask-Migrate
+- Flask-Bcrypt
+- Flask-Marshmallow
+- APISpec (OpenAPI)
+- SQLite (ambiente de desenvolvimento)
+- PostgreSQL (produção via variável de ambiente)
+
+---
+
+## ⚠️ Tratamento de erros
+
+### Casos tratados:
+- Erros de integridade no banco
+- Erros HTTP (400, 404, 409, etc.)
+
+---
+
+## 🔐 Segurança
+
+- Criptografia de senha com Flask-Bcrypt
+- Validação de dados com Marshmallow
+- Controle centralizado de exceções
+
+---
+
+## 📊 Funcionalidades
+
+- ✔ Cadastro de usuários
+- ✔ Listagem de usuários
+- ✔ Gerenciamento de contas
+- ✔ Integração com banco de dados
+- ✔ Estrutura escalável
+- ✔ API documentada automaticamente
+
+---
+
+## 📚 Documentação
+
+A API possui documentação automática disponível em:
+
+
+---
+
+
+---
+
+## ✨ Resultado do projeto
+
+- API funcional e organizada
+- Estrutura profissional pronta para produção
+- Código modular e reutilizável
+- Documentação automática
+- Projeto ideal para portfólio e vagas de estágio/júnior
+
+---
+
+## 👩‍💻 Sobre o projeto
+
+Projeto desenvolvido com foco em boas práticas de desenvolvimento backend, organização de código e preparação para o mercado de tecnologia.
+
+## 📁 Estrutura do projeto
+src/
+├── app.py
+├── config.py
+├── controllers/
+│ ├── user.py
+│ └── account.py
+├── models/
+│ └── db.py
